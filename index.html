@@ -22,7 +22,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="sm:h-[100vh] bg-blue-950 h-80">
+    <div class="sm:h-[100vh] bg-blue-950 h-[100vh]">
       <div class="flex justify-between items-center sm:p-5 p-3">
         <h1 class="text-gray-400 font-bold font-[ 'inter',sans-serif] text-2xl">
           Maahir
@@ -54,7 +54,7 @@
             >CONTACT</a
           >
         </div>
-        <div class="">
+        <div class="sm:flex hidden">
           <button
             class="px-6 py-2 text-white font-semibold rounded-lg bg-cyan-300 hover:bg-cyan-400"
           >
@@ -65,21 +65,21 @@
           <i class="fa fa-bars text-gray-200 text-2xl" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="sm:flex pt-5 items-center justify-center">
-        <div class="w-[600px]">
-          <h1 class="text-5xl font-semibold text-white pb-4">welcome this website sir/madam</h1>
-          <p class="text-md text-white">
+      <div class="sm:flex pt-5 flex-none items-center justify-center">
+        <div class="sm:w-[600px] w-full">
+          <h1 class="sm:text-5xl sm:px-0 px-3 text-xl font-semibold text-white sm:pb-4 pb-1">welcome this website sir/madam</h1>
+          <p class="sm:text-xl text-[10px] sm:px-0  px-7 text-white">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
             veritatis rerum, deserunt in reiciendis id iusto quia doloribus
             voluptate.
           </p>
           <button
-            class="px-6  mt-4 py-2 text-white font-semibold rounded-lg bg-cyan-300 hover:bg-cyan-400"
+            class="px-6  mt-4 sm:ml-0 ml-24 py-2 text-white font-semibold rounded-lg bg-cyan-300 hover:bg-cyan-400"
           >
             KNOW MORE
           </button>
         </div>
-        <div class="w-[600px]">
+        <div class="sm:w-[600px] w-full sm:mt-0 mt-20 sm:mr-0 mr-40">
           <img class="w-full" src="images/hero-img.png" alt="">
         </div>
       </div>
