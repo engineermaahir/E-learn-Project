@@ -12,26 +12,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="flex justify-between items-center p-5">
-      <div class="flex items-center sm:pl-10 pl-2 ">
-        <h1 class="text-5xl font-semibold font-sans text-red-900">M</h1>
-        <h1 class="text-4xl font-semibold font-sans text-gray-900">aahir</h1>
+    <div class="sm:h-screen bg-blue-950 h-80">
+      <div class="flex justify-between items-center sm:p-5 p-3">
+        <h1 class="text-gray-400 font-bold font-[ 'inter',sans-serif] text-2xl">Maahir</h1>
+        <div class="sm:flex hidden sm:items-center gap-10">
+          <a href="#" class="font-semibold text-[12px] font-[ 'inter',sans-serif] text-gray-300 hover:text-cyan-300">HOME</a>
+          <a href="#" class="font-semibold text-[12px] font-[ 'inter',sans-serif] text-gray-300 hover:text-cyan-300">SERVICES</a>
+          <a href="#" class="font-semibold text-[12px] font-[ 'inter',sans-serif] text-gray-300 hover:text-cyan-300">COURSES</a>
+          <a href="#" class="font-semibold text-[12px] font-[ 'inter',sans-serif] text-gray-300 hover:text-cyan-300">ABOUT</a>
+          <a href="#" class="font-semibold text-[12px] font-[ 'inter',sans-serif] text-gray-300 hover:text-cyan-300">CONTACT</a>
+        </div>
+        <div class="sm:flex hidden relative items-center">
+          <input type="text" class="w-64 h-8 rounded-xl" id="">
+          <i class="fa fa-search text-2xl absolute right-1"></i>
+        </div>
+        <div class="sm:hidden block p-2">
+          <i class="fa fa-bars text-gray-200 text-2xl" aria-hidden="true"></i>
+        </div>
       </div>
-      <div class="sm:flex sm:items-center hidden sm:gap-10">
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">Courses</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="sm:flex sm:items-center hidden gap-3 pr-10">
-        <button id="" class="shadow-md px-10 hover:bg-green-700 bg-white hover:text-white py-2 rounded-md">SignUp</button>
-        <button id="" class="shadow-md px-8 hover:bg-green-700 bg-white hover:text-white py-2 rounded-md">Login</button>
-      </div>
-      <i class="fa-solid fa-bars sm:hidden block"></i>
     </div>
   </body>
 </html>
